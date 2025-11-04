@@ -36,62 +36,91 @@
 />
 
 <Summary
-	generating
 	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	text="Valor eliminates the awkward discount conversation for San Diego's military community. Through one-time verification and secure card-linking, active duty members, veterans, and their families automatically receive military discounts at participating businesses without ever asking. We're building financial dignity for those who've served."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Maria Rodriguez",
+			position: "Military Spouse",
+			company: "San Diego",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"I used to feel so awkward asking for military discounts, especially as a spouse. With Valor, I've saved over $800 in six months without that uncomfortable moment at checkout. It just works automatically.",
+			image: "/generated/image-professional-headshot-of-a-confident-mil.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "James Chen",
+			position: "Navy Veteran",
+			company: "San Diego",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"I was skeptical about linking my card, but Valor's bank-grade security put my mind at ease. Now I'm saving $150+ monthly at places I already shop. The app found discounts at stores I didn't even know offered them.",
+			image: "/generated/image-professional-headshot-of-a-friendly-vete.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Taylor Williams",
+			position: "Active Duty",
+			company: "San Diego",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Before Valor, I'd skip asking for discounts when I was in a hurry or the line was long. Now I never miss out. The app has saved me 20+ hours of awkward conversations and $600 this year alone.",
+			image: "/generated/image-professional-headshot-of-an-approachable.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Built for military families who deserve better"
+	subtitle="No more uncomfortable conversations, no point-of-sale interaction, no hassle. Just automatic savings that recognize your service."
 	features={[
 		{
-			title: "Streamlined Workflows",
+			title: "Never ask for a discount again",
 			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+				"Verify your military status once and receive automatic discounts at participating San Diego businesses without the awkward conversation. Shop with dignity while your linked card does the work."
 		},
 		{
-			title: "Data Analysis",
+			title: "Completely automatic savings",
 			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+				"Our card-linked technology applies discounts instantly when you shop at participating merchants. No coupons to clip, no apps to open at checkout, no staff interaction required."
 		},
 		{
-			title: "Secure Collaboration",
+			title: "Bank-grade security you can trust",
 			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+				"Your data is protected with AES encryption used by major financial institutions. We never sell or share your personal information, and your privacy is our priority."
+		},
+		{
+			title: "Free for all military families",
+			description:
+				"Active duty, veterans, and military spouses get lifetime access at zero cost. We believe those who serve shouldn't pay to access the discounts they've earned."
+		},
+		{
+			title: "Growing San Diego merchant network",
+			description:
+				"From restaurants and retail to services and entertainment, discover military-friendly businesses across San Diego. 61% of military shoppers visit stores more often when discounts are available."
+		},
+		{
+			title: "One-time verification, lifetime access",
+			description:
+				"Complete a simple verification process once and enjoy automatic discounts forever. No repeated ID checks, no proving your service at every store, no hassle."
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+	title="Join 1,000+ San Diego military families"
+	subtitle="Shopping with dignity"
+	description="Download the free Valor app today and never ask for a military discount again. Bank-grade security, one-time verification, and automatic savings at participating merchants. Your service deserves recognition without the awkward conversation."
+	imageSrc="/generated/image-a-confident-happy-military-family-member.webp"
+	callsToAction={[
+		{
+			href: "https://apps.apple.com/app/valor",
+			label: "Download for iOS",
+			variant: "primary"
+		},
+		{
+			href: "https://play.google.com/store/apps/details?id=com.valor",
+			label: "Download for Android",
+			variant: "secondary"
+		}
+	]}
+/>
