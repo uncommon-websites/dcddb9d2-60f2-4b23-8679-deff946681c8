@@ -10,12 +10,30 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+	centered={false}
+	title="Verify once, never ask for a discount again"
+	subtitle="Automatic military discounts for San Diego's military community. Link your card, shop anywhere, and save without the awkward conversation."
+	imageSrc="/generated/image-a-diverse-military-familyparents-and-chi.webp"
+	callsToAction={[
+		{
+			href: "#download",
+			label: "Download app"
+		},
+		{
+			href: "#how-it-works",
+			label: "How it works"
+		}
+	]}
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by military-friendly businesses"
+	logoUrls={[
+		'https://cdn.brandfetch.io/homedepot.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/starbucks.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/target.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/24hourfitness.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
